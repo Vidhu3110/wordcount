@@ -7,7 +7,6 @@ def wordcount(word):
         else:
             count[str]=1
     return count 
-import pickle as p 
 f= open('wordcount.txt','w')
 f.write("Most of us wonder if there is a God and if He really is the God of the Bible. In the Bible God says ‘I will make your name great’ and today the name of Abraham/Abram is known worldwide. This promise has come true. The earliest copy of Genesis found in the Dead Sea Scrolls is dated 200-100 B.C. which means the promise has been in writing since at least that time. At that time the name of Abraham was not well-known so the promise came true only after it was written down, not before.")
 f.close()
